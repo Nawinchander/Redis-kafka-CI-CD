@@ -21,3 +21,19 @@ If miss → fetch from DB → store in Redis
 2. Session Store
 Store user login sessions
 Used in distributed systems
+
+Rate Limiting
+
+Example:
+
+Limit: 100 requests / minute per user
+
+Redis logic:
+
+INCR user_123_count
+EXPIRE 60 sec
+4. Real-time features
+Chat apps
+Leaderboards
+Notifications
+
