@@ -1,0 +1,20 @@
+
+FAANG-Level Interview Questions
+🔴 Redis Questions
+1. How do you design a cache system?
+
+👉 Talk about:
+
+TTL
+Cache invalidation
+LRU eviction
+2. What is cache stampede?
+
+👉 Solution:
+
+Locking
+Request coalescing
+3. Redis persistence?
+RDB snapshots
+AOF logs
+
