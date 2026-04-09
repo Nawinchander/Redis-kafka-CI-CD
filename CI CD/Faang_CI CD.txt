@@ -1,0 +1,13 @@
+CI/CD Questions
+
+1. Difference between CI and CD?
+CI → Testing
+CD → Deployment
+
+2. How to rollback deployment?
+Blue-Green deployment
+Canary release
+
+3. How to design scalable CI/CD?
+Parallel jobs
+Containerized builds
