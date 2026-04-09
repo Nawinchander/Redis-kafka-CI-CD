@@ -1,0 +1,11 @@
+What is Kafka?
+
+Apache Kafka = a distributed message queue / event streaming system
+
+💡 Core Idea:
+Handles millions of events per second
+Producers → Topics → Consumers
+📊 Kafka Flow
+Producer → Kafka Topic → Consumer
+
+
