@@ -4,12 +4,15 @@ Apache Kafka = a distributed message queue / event streaming system
 
 💡 Core Idea:
 Handles millions of events per second
+
 Producers → Topics → Consumers
+
 📊 Kafka Flow
 Producer → Kafka Topic → Consumer
 
 
 Where Kafka is used
+
 1. Event-driven Architecture
 Microservices communicate via events
 
@@ -24,6 +27,7 @@ User places order
 Send email, update inventory → async via Kafka
 
 4. Real-time pipelines
+
 Fraud detection
 Recommendation systems
 
