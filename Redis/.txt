@@ -1,0 +1,23 @@
+What is Redis?
+
+Redis = an in-memory key-value database (super fast, microseconds latency).
+
+💡 Core Idea:
+Stores data in RAM (not disk → very fast)
+Used when speed matters more than durability
+
+
+Where Redis is used in System Design
+1. Caching Layer (MOST IMPORTANT)
+
+Example:
+
+Client → API → Redis → DB
+First check Redis
+If miss → fetch from DB → store in Redis
+
+👉 Reduces DB load massively
+
+2. Session Store
+Store user login sessions
+Used in distributed systems
