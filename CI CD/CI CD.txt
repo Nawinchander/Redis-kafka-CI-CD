@@ -1,0 +1,28 @@
+CI/CD (Continuous Integration / Continuous Deployment)
+💡 What is it?
+
+Automates:
+
+Build
+Test
+Deploy
+
+🔁 CI/CD Flow
+
+Developer → Git push →
+CI Pipeline →
+  - Build
+  - Test
+  - Lint
+CD Pipeline →
+  - Deploy to server
+
+
+Popular Tools
+GitHub Actions
+Jenkins
+Docker
+Kubernetes
+
+
+
