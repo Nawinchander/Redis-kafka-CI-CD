@@ -8,3 +8,17 @@
 | Data persistence | Optional         | Strong          |
 | Pattern          | Request-response | Event-driven    |
 
+How they fit in System Design
+Example: E-commerce system
+
+
+User → API Gateway
+       ↓
+   Redis (cache)
+       ↓
+     DB
+
+Async flow:
+Order Service → Kafka → Email Service
+                      → Inventory Service
+
