@@ -23,3 +23,18 @@ Order Service → Kafka → Email Service
                       → Inventory Service
 
 
+FAANG-Level Tips
+Always explain trade-offs
+Use real-world systems
+
+Mention:
+Scalability
+Fault tolerance
+Latency
+
+🧠 Final Mental Model
+
+Redis → “Fast memory” (speed)
+Kafka → “Event pipeline” (communication)
+CI/CD → “Automation brain” (delivery)
+
