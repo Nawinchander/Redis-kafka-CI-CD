@@ -1,0 +1,10 @@
+Kafka Questions
+1. How Kafka ensures durability?
+Replication
+Partitioning
+2. What is partitioning?
+
+👉 Enables parallel consumption
+
+3. At-least-once vs Exactly-once?
+Trade-off: performance vs duplication
