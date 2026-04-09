@@ -1,2 +1,10 @@
 /// Faang Interview
 
+| Feature          | Redis            | Kafka           |
+| ---------------- | ---------------- | --------------- |
+| Type             | In-memory DB     | Message broker  |
+| Speed            | Ultra fast       | High throughput |
+| Use case         | Cache, session   | Event streaming |
+| Data persistence | Optional         | Strong          |
+| Pattern          | Request-response | Event-driven    |
+
